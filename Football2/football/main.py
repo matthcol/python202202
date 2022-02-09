@@ -5,7 +5,7 @@ Created on Wed Feb  9 09:51:13 2022
 @author: Matthias
 """
 
-from match import Match
+from . import Match
 
 def run():
     m1 = Match("Barcelona", "PSG")
