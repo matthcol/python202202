@@ -53,3 +53,4 @@ class Match:
     
     def nombreBut(self, numEquipe):
         return self.score[numEquipe-1]
+    
