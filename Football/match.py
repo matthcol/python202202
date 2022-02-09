@@ -5,12 +5,13 @@ Created on Wed Feb  9 09:05:00 2022
 @author: Matthias
 """
 from functools import total_ordering
+from typing import Tuple
 
 @total_ordering
 class Match:
     
     # constructeur
-    def __init__(self, equipe1: str, equipe2: str, score: tuple[int,int] =(0,0)):
+    def __init__(self, equipe1: str, equipe2: str, score: Tuple[int,int] =(0,0)):
         self.equipe1 = equipe1
         self.equipe2 = equipe2
         self.score = score
